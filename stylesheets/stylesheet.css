@@ -7,6 +7,7 @@ body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
+  text-align:justify;
   color: #606c71; }
 
 a {
@@ -15,8 +16,10 @@ a {
   a:hover {
     text-decoration: underline; }
 
+/*display none pour cacher les boutons. A rendre visible si plusieurs pages */	
+	
 .btn {
-  display: inline-block;
+  display: none;
   margin-bottom: 1rem;
   color: rgba(255, 255, 255, 0.7);
   background-color: rgba(255, 255, 255, 0.08);
@@ -89,6 +92,11 @@ a {
 
 .project-tagline {
   margin-bottom: 2rem;
+  font-weight: normal;
+  opacity: 0.7; }
+  
+.project-tagline2 {
+  margin-top: -2rem;
   font-weight: normal;
   opacity: 0.7; }
 
@@ -202,6 +210,10 @@ a {
   margin: 1rem 0;
   background-color: #eff0f1;
   border: 0; }
+  
+#bold {
+  font-weight: bold;
+}
 
 @media screen and (min-width: 64em) {
   .main-content {
