@@ -57,6 +57,7 @@ a {
     padding: 0.75rem;
     font-size: 0.9rem; }
     .btn + .btn {
+		display: none;
       margin-top: 1rem;
       margin-left: 0; } }
 
